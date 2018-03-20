@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0F0EAFFD2060C8CF00FC6F29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F0EAFFC2060C8CF00FC6F29 /* main.cpp */; };
+		0F0EB0062060CAC100FC6F29 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0EB0042060CAC100FC6F29 /* CoreFoundation.framework */; };
+		0F0EB0072060CAC100FC6F29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0EB0052060CAC100FC6F29 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		0F0EAFF92060C8CF00FC6F29 /* resolution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = resolution; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F0EAFFC2060C8CF00FC6F29 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0F0EB0042060CAC100FC6F29 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0F0EB0052060CAC100FC6F29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0EB0062060CAC100FC6F29 /* CoreFoundation.framework in Frameworks */,
+				0F0EB0072060CAC100FC6F29 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +49,7 @@
 			children = (
 				0F0EAFFB2060C8CF00FC6F29 /* resolution */,
 				0F0EAFFA2060C8CF00FC6F29 /* Products */,
+				0F0EB0032060CAC100FC6F29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +67,15 @@
 				0F0EAFFC2060C8CF00FC6F29 /* main.cpp */,
 			);
 			path = resolution;
+			sourceTree = "<group>";
+		};
+		0F0EB0032060CAC100FC6F29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F0EB0042060CAC100FC6F29 /* CoreFoundation.framework */,
+				0F0EB0052060CAC100FC6F29 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
